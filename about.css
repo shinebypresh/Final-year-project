@@ -1,0 +1,176 @@
+*{
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.337), rgb(145, 11, 160));
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+
+
+} 
+
+#outer-box h1{
+    text-align: center;
+    color:aliceblue;
+}
+.first-box{
+position: sticky;
+background-color: rgb(88, 3, 84);
+    padding: 20px 80px 10px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+
+.first-box{
+    background-color: rgb(88, 3, 84);
+    padding: 20px 80px 10px;
+    height: 15vh;
+
+}
+
+h3{
+    color: purple;
+    text-align: center;
+}
+
+h5{
+    color: purple;
+    text-align: center;
+}
+.third-box{
+    background-color: rgba(139, 139, 214, 0.212);
+    padding: 8px;
+    height: 15vh;
+}
+.second-box{
+    background-color: rgba(139, 139, 214, 0.212);
+    padding: 8px;
+    height: 15vh;
+}
+
+.fourth-box{
+    padding: 8px;
+    background-color: rgba(139, 139, 214, 0.212);
+    height: 15vh;
+}
+
+.firth-box{
+    padding: 8px;
+    background-color: rgba(139, 139, 214, 0.212);
+    height: 15vh;
+}
+
+.sixth-box{
+    padding: 8px;
+    background-color: rgba(139, 139, 214, 0.212);
+    height: 15vh;
+}
+
+h3{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:600px){
+
+    body{
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0.337), rgb(145, 11, 160));
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border: none;
+        outline: none;
+
+
+    } 
+
+    #outer-box h1{
+        text-align: center;
+        color:aliceblue;
+    }
+    .first-box{
+    position: sticky;
+    background-color: rgb(88, 3, 84);
+        padding: 20px 80px 10px;
+    }
+    h3{
+        color: white;
+        text-align: center;
+    }
+
+    .first-box{
+        background-color: rgb(88, 3, 84);
+        padding: 20px 80px 10px;
+        height: 15vh;
+    
+    }
+
+    h3{
+        color: purple;
+        text-align: center;
+    }
+
+    h5{
+        color: purple;
+        text-align: center;
+    }
+    .third-box{
+        background-color: rgba(139, 139, 214, 0.212);
+        padding: 8px;
+        height: 15vh;
+    }
+    .second-box{
+        background-color: rgba(139, 139, 214, 0.212);
+        padding: 8px;
+        height: 15vh;
+    }
+    
+    .fourth-box{
+        padding: 8px;
+        background-color: rgba(139, 139, 214, 0.212);
+        height: 15vh;
+    }
+    
+    .firth-box{
+        padding: 8px;
+        background-color: rgba(139, 139, 214, 0.212);
+        height: 15vh;
+    }
+
+    .sixth-box{
+        padding: 8px 0px 20px ;
+        background-color: rgba(139, 139, 214, 0.212);
+        height: 15vh;
+
+    }
+
+    h3{
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+
+    h3{
+        color: white;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,98 @@
+body{
+    width:100%;
+    height: 100vh;
+    
+    
+}
+.box{
+    margin: 20px 0px;
+    display: block;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+
+.first-box{
+    background-color: rgb(88, 3, 84);
+    padding: 80px;
+    margin: 20px;
+
+}
+h3{
+    color: white;
+    text-align: center;
+}
+
+/* we will come back to resizing the table for phone screen size*/
+
+table{
+    border-collapse: collapse;
+    margin-top: 3em;
+}
+.tbody{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* we will come back to resizing the table for phone screen size*/
+th, td {
+    width:auto;
+    padding:  2em 7.8em;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+tr{
+    background-color: rgba(139, 139, 214, 0.212);
+    
+}
+
+@media screen and (max-width: 600px){
+
+    .box{
+        max-width: 100%;
+        margin: 20px 0px;
+        display: block;
+    }
+    h1{
+        color:white;
+        text-align: center;
+    }
+    
+    .first-box{
+        background-color: rgb(88, 3, 84);
+        padding: 20px 80px 10px;
+        margin: 0px 8px;
+    
+    }
+    h3{
+        color: white;
+        text-align: center;
+    }
+
+    table{
+        border-collapse: collapse;
+        margin-top: 1em;
+    }
+    .tbody{
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    /* we will come back to resizing the table for phone screen size*/
+    th, td {
+        max-width:100px;
+        padding:  1em 1.8em;
+        border-bottom: 5px solid rgb(255, 255, 255);
+    }
+    
+    tr{
+        background-color: rgba(139, 139, 214, 0.212);
+        
+    }
+}
+

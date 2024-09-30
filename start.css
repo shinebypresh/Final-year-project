@@ -1,0 +1,101 @@
+h1{
+    color:white;
+    text-align: center;
+}
+.box{
+    font-size: 20px;
+}
+.first-box{
+    background-color: rgb(88, 3, 84);
+    padding: 20px 80px 10px;
+    height: 15vh;
+
+}
+h3{
+    color: purple;
+    text-align: center;
+}
+h5{
+    color: purple;
+    text-align: center;
+}
+.third-box{
+    background-color: rgba(139, 139, 214, 0.212);
+    padding: 8px;
+    height: 15vh;
+}
+.second-box{
+    background-color: rgba(139, 139, 214, 0.212);
+    padding: 8px;
+    height: 15vh;
+}
+
+.fourth-box{
+    padding: 8px;
+    background-color: rgba(139, 139, 214, 0.212);
+    height: 15vh;
+}
+
+.firth-box{
+    padding: 8px;
+    background-color: rgba(139, 139, 214, 0.212);
+    height: 15vh;
+}
+a{
+    color: purple;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(192, 148, 5);
+    text-decoration: none;;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        color:white;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .first-box{
+        background-color: rgb(88, 3, 84);
+        padding: 20px 80px 10px;
+
+    }
+    h3{
+        color: purple;
+        text-align: center;
+    }
+    h5{
+        color: purple;
+        text-align: center;
+    }
+    .third-box{
+        background-color: rgba(139, 139, 214, 0.212);
+        padding: 8px;
+    }
+    .second-box{
+        background-color: rgba(139, 139, 214, 0.212);
+        padding: 8px;
+    }
+
+    .fourth-box{
+        padding: 8px;
+        background-color: rgba(139, 139, 214, 0.212);
+    }
+
+    .firth-box{
+        padding: 8px;
+        background-color: rgba(139, 139, 214, 0.212);
+    }
+    a{
+        color: purple;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(192, 148, 5);
+        text-decoration: none;;
+    }
+
+
+    
+}

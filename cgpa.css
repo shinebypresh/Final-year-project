@@ -1,0 +1,203 @@
+*{
+    margin: none;
+    padding: none;
+    border: none;
+
+
+}
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.337), rgb(145, 11, 160));
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+
+
+} 
+
+#outer-box h1{
+    text-align: center;
+    color:aliceblue;
+}
+.first-box{
+   position: sticky;
+   background-color: rgb(88, 3, 84);
+    padding: 20px 80px 10px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.container{
+    width:100%;
+    background-color: white;
+    border: none;
+    outline: none;
+
+}
+form{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .contents{
+    background-color: rgba(139, 139, 214, 0.212);
+    margin: 0;
+    padding: 50px;
+ color:white;
+     width: auto;
+    border-radius: 30px;
+} .section{
+    margin: 0px 0px 10px;
+    box-sizing: border-box;
+}
+.section input{
+    margin: 4px 25px;
+    padding: 10px 0px 10px 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    border-radius: 40px;
+    box-shadow: 8px 8px 9px rgba(102, 52, 5, 0.247);
+    width: 15vw;
+    outline: none;
+    border: none;
+}
+.section input::placeholder{
+    color: rgba(3, 3, 29, 0.199);
+    font-weight: 600;
+    font-family: Verdana, Tahoma, sans-serif;
+    border: none;
+}
+.section label{
+    color:rgb(88, 3, 84);
+    border-radius: 10px;
+}
+
+.result{
+    color: black;
+}
+
+#btns{
+  float: right;
+  color: white;
+  border-radius: 35px;
+  font-size: 20px;
+  padding: 7px 0px;
+  outline: none;
+  border: white;
+  background-color: purple;
+  margin-right: 30px;
+  cursor: pointer;
+
+
+
+}
+
+#btns:hover{
+    background-color: rgba(128, 0, 128, 0.632);
+    cursor: pointer;
+}
+#textbox{
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: purple;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgb(226, 223, 223);
+        display: block;
+    } 
+    
+    #outer-box h1{
+        text-align: center;
+        color:aliceblue;
+    }
+    .first-box{
+       position: sticky;
+       background-color: rgb(88, 3, 84);
+        padding: 20px 80px 10px;
+    }
+    h3{
+        color: white;
+        text-align: center;
+    }
+    .container{
+        max-width:100%;
+        background-color: white;
+    }
+    form{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .contents{
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0.337), rgb(145, 11, 160));
+        color:white;
+         width: auto;
+        border-radius: 30px;
+    } .section{
+        margin: 0px 0px 10px;
+        box-sizing: border-box;
+    }
+    .section input{
+        margin: 4px 5px;
+        padding: 10px 0px 10px 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-transform: uppercase;
+        border-radius: 40px;
+        box-shadow: 8px 8px 9px rgba(102, 52, 5, 0.247);
+        width: 15vw;
+        outline: none;
+        border: none;
+    }
+    .section label{
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        font-size: small;
+    }
+    .section input::placeholder{
+        color: rgba(3, 3, 29, 0.199);
+        font-family: Verdana, Tahoma, sans-serif;
+        border: none;
+        font-size: 16px;
+    }
+     #btns{
+        color: rgb(254, 252, 252);
+        font-size: 10px;
+        text-align: center;
+        padding-right: -10px;
+        background-color: purple;
+
+    }
+
+    #btns:hover{
+        background-color: rgba(128, 0, 128, 0.632);
+        cursor: pointer;
+       
+    }
+
+    #textbox{
+        color: black;
+        
+
+    }
+    a{
+        text-decoration: none;
+        color: purple;
+        margin-top: 20px;
+    }
+}
+ /*#text{
+    padding: 14px;
+    width: 7vw;
+    color: black;
+
+}*/
